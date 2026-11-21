@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《城市之影》第一版繁體中文查閱入口、玩家手冊、主持人工作台與翻譯進度。">
+  <title>城市之影｜一版繁體中文手冊</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./draft-data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="bar"><div class="bar-inner">
+    <a class="brand" href="./">城市之影 <span>第一版</span></a>
+    <nav aria-label="查閱入口">
+      <a href="#players">玩家手冊</a><a href="#mc">主持人工作台</a><a href="#progress">翻譯進度</a>
+    </nav>
+  </div></header>
+  <main id="main" class="layout">
+    <div class="reader">
+      <div class="lead"><p class="eyebrow">URBAN SHADOWS · 1ST EDITION</p>
+      <h1 id="title" tabindex="-1">城市之影</h1>
+      <p id="intro">街區、人情與陣營的繁體中文查閱入口。</p></div>
+      <div id="article"></div>
+      <noscript><p>請啟用 JavaScript 以瀏覽章節和使用搜尋。</p></noscript>
+    </div>
+    <aside class="sidebar" aria-label="章節與搜尋">
+      <form id="search-form" role="search">
+        <label for="search">搜尋章節、術語或規則</label>
+        <input type="search" id="search" name="q" placeholder="例：腐化、Debt、風暴">
+        <button>搜尋</button>
+      </form>
+      <div id="contents"></div>
+    </aside>
+  </main>
+  <footer><div>Urban Shadows © Magpie Games · Andrew Medeiros、Mark Diaz Truman</div><div>非官方繁體中文專案 · <a href="#sources">來源與校訂</a></div></footer>
+</body>
+</html>
+
